@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
+        body{
+            background:#777274;
+            height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .popup{
+            background:#fff9fa;
+            border-radius:22px;
+            width:90%;
+            max-width:420px;
+            padding:40px 24px;
+            text-align:center;
+        }
+        .title{
+            font-size:32px;
+            color:#ed789b;
+            margin-bottom:32px;
+            line-height:1.3;
+        }
+        .btns{
+            display:flex;
+            gap:16px;
+            justify-content:center;
+        }
+        button{
+            padding:14px 30px;
+            border:none;
+            border-radius:99px;
+            background:#f8b9cc;
+            color:white;
+            font-size:22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <div class="title">¿Quieres celebrar Halloween conmigo?</div>
+        <div class="btns">
+            <button onclick="go()">🎃 Si</button>
+            <button onclick="go()">🕸️ No</button>
+        </div>
+    </div>
+    <script>
+        function go(){
+            window.location.href="http://m.baidu.com/video/page?pd=video_page&nid=18439479882091427954&sign=13684253774294269272&word=%E4%BD%A0%E8%A2%AB%E9%AA%97%E4%BA%86%E8%A7%86%E9%A2%91&oword=%E4%BD%A0%E8%A2%AB%E9%AA%97%E4%BA%86%E8%A7%86%E9%A2%91&atn=index&frsrcid=48304&ext=%7B%22jsy%22%3A1%7D&top=%7B%22sfhs%22%3A1%2C%22_hold%22%3A2%7D&fr0=A&fr1=A&ms=1&lid=14293965514268994018&referlid=14293965514268994018&frorder=1&_t=1791104241834";
+        }
+    </script>
+</body>
+</html>
